@@ -1,19 +1,19 @@
 # RestAssuredNetflix
 
-#####1. Choose any IDE (I prefer IntelliJ)
+##### 1. Choose any IDE (I prefer IntelliJ)
 
-#####2. Have JDK setup pre-requisite
+##### 2. Have JDK setup pre-requisite
 
-#####3. Create Maven Project
+##### 3. Create Maven Project
 
-#####4. Add Dependencies to POM file (Check versions in POM file for below dependencies)
+##### 4. Add Dependencies to POM file (Check versions in POM file for below dependencies)
 
-#####4.1) testng 6.10
-#####4.2) rest_assured 2.9.0
-#####4.3) json-schema-validator 2.9.0
-#####4.4) json-path 2.2.0
+##### 4.1) testng 6.10
+##### 4.2) rest_assured 2.9.0
+##### 4.3) json-schema-validator 2.9.0
+##### 4.4) json-path 2.2.0
 
-####Getting started with your own custom URI(Unifrom Resource Identifier)
+#### Getting started with your own custom URI(Unifrom Resource Identifier)
 
 ##### Install NPM (node.js)
 
@@ -50,7 +50,7 @@ Your request body JSON should be object enclosed, just like the GET output. (for
 Id values are not mutable. Any id value in the body of your PUT or PATCH request will be ignored. Only a value set in a POST request will be respected, but only if not already taken.
 A POST, PUT or PATCH request should include a Content-Type: application/json header to use the JSON in the request body. Otherwise it will result in a 200 OK but without changes being made to the data.
 
-####Routes
+#### Routes
 
 Based on the previous db.json file, here are all the default routes. You can also add other routes using --routes.
 
@@ -72,7 +72,7 @@ PUT    /profile
 PATCH  /profile
 ```
 
-####Filter
+#### Filter
 
 ```Use . to access deep properties```
 
